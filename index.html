@@ -21,12 +21,21 @@
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
-    <h1>Подглядеть чужие оценки | АМТЭК</h1>
-    <input type="text" id="" list="ucheniki">
-    <datalist id="ucheniki" required>
-        <option value="1754 Андрей Викторович Семёнов"></option>
-        <option value="1488 Иван Валерьевич Ященко"></option>
-    </datalist>
+    <div id="shapka" class="firmenni">Подглядеть чужие оценки | АМТЭК</div>
+    <div id="main-container">
+        <div id="inputs">
+            <div class="like-h1 firmenni">Начните вводить имя и выберите ученика:</div>
+            <input type="text" id="" list="ucheniki">
+            <datalist id="ucheniki" required>
+                <option value="1754 Андрей Викторович Семёнов"></option>
+                <option value="1488 Иван Валерьевич Ященко"></option>
+            </datalist>
+        </div>
+        <div id="result">
+            <iframe class="frames" src="https://xn--d1auh.xn----8sbnlgibn8c8a2f.xn--p1ai/mk6.php?id=1754" frameborder="0" scrolling="auto"></iframe>
+        </div>
+    </div>
+
     <script src="sela_dala.js"></script>
 </body>
 </html>
